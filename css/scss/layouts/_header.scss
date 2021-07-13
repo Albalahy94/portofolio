@@ -1,0 +1,32 @@
+$fontColor: rgb(245, 245, 245);
+$backgroundColor:#2C3E50;
+$sactionColor: #1ABC9C ;
+
+header{
+    background-color: $backgroundColor;
+    width: auto;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+div{
+    display: grid;
+
+    grid-template-rows: auto  auto;
+    // gap: 10px 10px;
+    grid-template-columns: auto  auto;  
+    margin: 30px 20px !important;
+    
+    h1{
+        color: $fontColor;
+        margin: 40px 20px !important;
+    }   
+    img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+}
+
+ 
+ 
+ }

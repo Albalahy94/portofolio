@@ -1,0 +1,26 @@
+$fontColor: rgb(245, 245, 245);
+$backgroundColor:#2C3E50;
+$sactionColor: #1ABC9C ;
+
+section.about{
+  
+        // background-color: $sactionColor;
+        margin: 0px;
+
+
+        div{
+        margin: 20px !important;
+        text-align: center;
+
+            h3{
+                color: $backgroundColor;
+
+            }
+            p{
+                color: $backgroundColor;
+                font-size: 20px;
+
+            }
+        }
+
+}

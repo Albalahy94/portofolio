@@ -1,0 +1,39 @@
+$fontColor: rgb(245, 245, 245);
+$backgroundColor:#2C3E50;
+$sactionColor: #1ABC9C ;
+
+nav{
+    display: grid;
+
+    grid-template-rows: auto auto auto;
+    gap: 10px 10px;
+    grid-template-columns: auto auto   auto auto;
+
+    justify-content: space-evenly;
+    margin: auto auto !important;
+    ul{
+        padding: 20px 5px;
+        // line-height: 40%;
+
+        li{
+            a{
+                text-decoration: none;
+                color: $fontColor;
+                border-radius: 10px;
+                transition-duration: 0.5s;
+                &:hover{
+                    color: $backgroundColor !important;
+                    background-color: $fontColor !important;
+                }
+            }
+            width: auto ;
+            // color: $fontColor;
+
+            list-style: none;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 30px;
+            // background-color: rgb(110, 107, 107) !important;
+            
+        }
+    }}

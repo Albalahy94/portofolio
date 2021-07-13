@@ -1,0 +1,16 @@
+@import './pages/home';
+@import './pages/about-me';
+@import './pages/contact-me';
+@import './pages/my-projects';
+@import './pages/skills';
+@import './layouts/footer';
+@import './layouts/header';
+@import './layouts/nav';
+
+$mainColor :'red';
+
+body{
+    background-color: rgb(224, 224, 224);
+
+    
+}
