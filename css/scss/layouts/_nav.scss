@@ -1,19 +1,19 @@
-$fontColor: rgb(245, 245, 245);
-$backgroundColor:#2C3E50;
-$sactionColor: #1ABC9C ;
+@import '../main/variable';
 
 nav{
-    display: grid;
-
-    grid-template-rows: auto auto auto;
-    gap: 10px 10px;
-    grid-template-columns: auto auto   auto auto;
-
-    justify-content: space-evenly;
+    width: 100%;
     margin: auto auto !important;
+            // grid-template-rows: auto auto auto;
+            // display: grid;
     ul{
-        padding: 20px 5px;
+        display: grid;
+        grid-template-columns: auto auto   auto auto;
+        // grid-template-rows: auto auto auto;
+        justify-content: space-evenly;
+        // gap: 10px 10px;
+        padding: $mainpadding;
         // line-height: 40%;
+        
 
         li{
             a{

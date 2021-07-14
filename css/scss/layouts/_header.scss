@@ -1,6 +1,4 @@
-$fontColor: rgb(245, 245, 245);
-$backgroundColor:#2C3E50;
-$sactionColor: #1ABC9C ;
+@import '../main/variable';
 
 header{
     background-color: $backgroundColor;
@@ -14,11 +12,11 @@ div{
     grid-template-rows: auto  auto;
     // gap: 10px 10px;
     grid-template-columns: auto  auto;  
-    margin: 30px 20px !important;
+    margin: $mainmargin;
     
     h1{
         color: $fontColor;
-        margin: 40px 20px !important;
+        margin: $mainmargin;
     }   
     img{
         height: 150px;

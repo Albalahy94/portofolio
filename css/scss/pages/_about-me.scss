@@ -1,6 +1,4 @@
-$fontColor: rgb(245, 245, 245);
-$backgroundColor:#2C3E50;
-$sactionColor: #1ABC9C ;
+@import '../main/variable';
 
 section.about{
   
@@ -9,7 +7,7 @@ section.about{
 
 
         div{
-        margin: 20px !important;
+        margin: $mainmargin;
         text-align: center;
 
             h3{

@@ -1,7 +1,4 @@
-$fontColor: rgb(245, 245, 245);
-$backgroundColor:#2C3E50;
-$sactionColor: #1ABC9C ;
-
+@import '../main/variable';
 .contact-me{
 background-color: $sactionColor;
 div{
@@ -10,7 +7,7 @@ width: 80%;
 margin-left: 10% !important;
 div{
         margin:  auto   !important;
-        padding: 10px 5px;
+        padding: $mainpadding;
 
         div.form{
             display: grid;
@@ -21,7 +18,7 @@ div{
                 width: 100%;
                 font-size: 20px;
                 color: gray;
-                padding: 5px ;
+                padding: $mainpadding ;
                 text-align: center;
 
             }
@@ -42,8 +39,8 @@ div{
                 background-color: $backgroundColor;
                 color: cadetblue;
                 border-radius: 20px 10px ;
-                margin: 10px 2px !important;
-                padding: 10px 5px;
+                margin: $mainmargin;
+                padding: $mainpadding;
                 font-size: 25px;
                 font-weight: bold;
                 &:hover{
